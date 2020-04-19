@@ -9,10 +9,10 @@ print(f"La place de cinéma coute {price}€")
 
 popcorn = input("Souhaitez-vous du popcorn ? [Oui/Non] ")
 
-if popcorn.startswith("o"):
+if popcorn.lower().startswith("o"):
     price += 5
     print(f"Vous allez payer {price}€")
-elif popcorn.startswith("n"):
+elif popcorn.lower().startswith("n"):
     print(f"Vous allez payer {price}€")
 else:
     print("Erreur")
