@@ -5,14 +5,15 @@ if age >= 18:
 else:
     price = 7
 
-print("La place de cinéma coute {}€".format(price))
+print(f"La place de cinéma coute {price}€")
 
 popcorn = input("Souhaitez-vous du popcorn ? [Oui/Non] ")
 
-if popcorn.startswith("o"):
+if popcorn.lower().startswith("o"):
     price += 5
-    print("Vous allez payer {}€".format(price))
-elif popcorn.startswith("n"):
-    print("Vous allez payer {}€".format(price))
+    print(f"Vous allez payer {price}€")
+elif popcorn.lower().startswith("n"):
+    print(f"Vous allez payer {price}€")
 else:
     print("Erreur")
+
