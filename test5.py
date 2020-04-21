@@ -1,6 +1,6 @@
 from random import randint
 
-just_price = randint(1, 9999)
+just_price = randint(1, 999)
 run = True
 
 while run:
