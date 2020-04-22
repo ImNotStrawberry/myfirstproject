@@ -1,7 +1,7 @@
 from random import shuffle
 
 text = input("Entrez des mots au hasard : ").split()
-num = len(text)
+num  = len(text)
 print(f"Votre liste contient {num} mots")
 shuffle(text)
 if num < 10:
@@ -11,4 +11,3 @@ if num < 10:
 else:
     print("Voici les trois derniers termes cette liste : "
           f"{text[-2]}, {text[-3]}")
-

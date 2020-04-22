@@ -1,5 +1,5 @@
 def main():
-    wallet = int(input("Argent possédé : "))
+    wallet  = int(input("Argent possédé : "))
     product = 60
     wallet -= product
     print("Le jeu Animal Crossing New Horizons coûte 60€")
@@ -8,4 +8,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
