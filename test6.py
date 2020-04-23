@@ -1,13 +1,13 @@
-def vowels_number(word):
-    nb_vowels = 0
+def num_vowels(word):
+    vowels = 0
 
     for letter in word:
-        if letter in ['a', 'e', 'i', 'o', 'u', 'y']:
-            nb_vowels += 1
+        if letter =['a', 'e', 'i', 'o', 'u', 'y']:
+            vowels += 1
 
-    return nb_vowels
+    return vowels
 
 
 word = input("Entrez un mot : ")
-vowels_count = vowels_number(word)
-print(f"Il y a {vowels_count} voyelles dans le mot {word}")
+nb = num_vowels(word)
+print(f"Il y a {nb} dans le mot {word}")
