@@ -2,7 +2,7 @@ def num_vowels(word):
     vowels = 0
 
     for letter in word:
-        if letter =['a', 'e', 'i', 'o', 'u', 'y']:
+        if letter = ['a', 'e', 'i', 'o', 'u', 'y']:
             vowels += 1
 
     return vowels
