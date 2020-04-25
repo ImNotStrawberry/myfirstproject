@@ -1,4 +1,4 @@
-age       = int(input("Entrez votre age : "))
+age = int(input("Entrez votre age : "))
 
 if age >= 18:
     price = 12
@@ -7,7 +7,7 @@ else:
 
 print(f"La place de cinéma coute {price}€")
 
-popcorn   = input("Souhaitez-vous du popcorn ? [Oui/Non] ")
+popcorn = input("Souhaitez-vous du popcorn ? [Oui/Non] ")
 
 if popcorn.lower().startswith("o"):
     price += 5
