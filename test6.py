@@ -10,4 +10,4 @@ def num_vowels(word):
 
 word = input("Entrez un mot : ")
 nb = num_vowels(word)
-print(f"Il y a {nb} dans le mot {word}")
+print(f"Il y a {nb} voyelles dans le mot {word}")
